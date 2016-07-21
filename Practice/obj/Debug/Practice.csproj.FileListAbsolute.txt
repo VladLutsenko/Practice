@@ -7,3 +7,4 @@ c:\users\влад\documents\visual studio 2015\Projects\Practice\Practice\obj\De
 c:\users\влад\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.csproj.GenerateResource.Cache
 c:\users\влад\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.exe
 c:\users\влад\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.pdb
+c:\users\влад\documents\visual studio 2015\Projects\Practice\Practice\obj\Debug\Practice.NewProcess.resources

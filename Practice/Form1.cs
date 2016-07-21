@@ -42,36 +42,13 @@ namespace Practice
         private void listBox1_DoubleClick(object sender, EventArgs e)
         {
             button2.PerformClick();
-            //BrowsApp(listBox1.Items[listBox1.SelectedIndex].ToString());
+            
         }
 
-        //public void BrowsApp(string nameApp)
-        //{
-        //    WindowsIdentity identity = WindowsIdentity.GetCurrent();
-        //    if (identity != null)
-        //    {
-        //        string currentUser = identity.Name.Split('\\')[1];
-
-        //        string query = "Select * from Win32_Process Where Name = \"" + nameApp + "\"";
-        //        var searcher = new ManagementObjectSearcher(query);
-        //        var processes = searcher.Get();
-
-        //        foreach (ManagementObject proc in processes)
-        //        {
-        //            string owner;
-        //            var argList = new[] { string.Empty };
-        //            int returnVal = Convert.ToInt32(proc.InvokeMethod("GetOwner", argList));
-        //            if (returnVal == 0)
-        //                owner = argList[0];
-        //            else
-        //                continue;
-
-        //            if (owner != currentUser)
-        //                continue;
-
-        //            MessageBox.Show(proc["ExecutablePath"].ToString());
-        //        }
-        //    }
-        //}
+        private void button3_Click(object sender, EventArgs e)
+        {
+            NewProcess f = new NewProcess();
+            f.Show();
+        }
     }
 }
